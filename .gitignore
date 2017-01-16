@@ -1,0 +1,14 @@
+.metadata/
+.metadata/*
+RemoteSystemsTempFiles/
+RemoteSystemsTempFiles/*
+.settings/*
+.classpath
+target/
+.project
+
+hadoop-maven/.setting/
+hadoop-maven/.settings/*
+hadoop-maven/.classpath
+hadoop-maven/target/
+hadoop-maven/.project

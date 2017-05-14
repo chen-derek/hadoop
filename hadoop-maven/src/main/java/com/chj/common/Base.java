@@ -9,7 +9,7 @@ import org.apache.hadoop.fs.Path;
 public class Base {
 
 	public static final String HDFS_PATH = "hdfs://192.168.2.251:9000";
-	private static FileSystem fileSystem = null;
+	public static FileSystem fileSystem = null;
 
 	public static void init(String output) {
 		try {

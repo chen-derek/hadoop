@@ -43,6 +43,7 @@ public class HadoopTest {
 		final URL url = new URL(HDFS_PATH + "/user/root/testdir/a.txt");
 		final InputStream in = url.openStream();
 		IOUtils.copyBytes(in, System.out, 1024, true);
+		IOUtils.closeStream(in);
 	}
 
 	/**
